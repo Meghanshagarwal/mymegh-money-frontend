@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   define: {
-    'process.env.VITE_API_URL': JSON.stringify(process.env.VITE_API_URL || 'http://localhost:5000')
+    'process.env.VITE_API_URL': JSON.stringify(process.env.VITE_API_URL || 'https://mymegh-money-backend.onrender.com')
   },
   build: {
     outDir: 'dist',
@@ -21,7 +21,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          ui: ['@radix-ui/react-dialog', '@radix-ui/react-avatar', '@radix-ui/react-button']
+          ui: ['@radix-ui/react-dialog', '@radix-ui/react-avatar', '@radix-ui/react-slot']
         }
       }
     }
