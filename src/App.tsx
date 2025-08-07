@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Dashboard from "@/pages/dashboard";
 import Friends from "@/pages/friends";
 import Activity from "@/pages/activity";
+import PersonActivity from "@/pages/person-activity";
 import NotFound from "@/pages/not-found";
 
 function Router() {
