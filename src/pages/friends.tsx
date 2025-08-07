@@ -112,7 +112,7 @@ export default function Friends() {
             </Card>
           ) : (
             friends.map((friend) => (
-              <Card key={friend.id} className="border-none shadow-sm hover:shadow-md transition-shadow">
+              <Card key={friend.id} className="border-none shadow-sm hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-3">
                     <Avatar className="h-12 w-12">
